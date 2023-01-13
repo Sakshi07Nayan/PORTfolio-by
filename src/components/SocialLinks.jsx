@@ -9,39 +9,41 @@ const SocialLinks = () => {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          LinkedIn <FaLinkedin size={35} />
         </>
       ),
       href: "https://www.linkedin.com/in/sakshi-nayan-feb2000/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md text-xl ",
     },
     {
       id: 2,
       child: (
         <>
-          GitHub <FaGithub size={30} />
+          GitHub <FaGithub size={35} />
         </>
       ),
       href: "https://github.com/SakshiNayan",
+      style: "text-xl",
     },
     {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          Mail <HiOutlineMail size={35} />
         </>
       ),
       href: "sakshi12princi@gmail.com",
+      style: "text-xl",
     },
     {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          Resume <BsFillPersonLinesFill size={35} />
         </>
       ),
       href: "/Sakshi Nayan-V3.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md text-xl",
       download: true,
     },
   ];
@@ -53,7 +55,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-44 h-20 px-5 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
               " " +
               style
             }
