@@ -1,32 +1,32 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
+import laundry from "../assets/portfolio/laundryApp.png";
+import instaPhoto from "../assets/portfolio/inst2.png";
+import reactMovie from "../assets/portfolio/reactMovi.png";
+import loginAuth from "../assets/portfolio/loginAuth.png";
+import Tictac from "../assets/portfolio/tictac.png";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: laundry,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: instaPhoto,
     },
     {
       id: 3,
-      src: navbar,
+      src: loginAuth,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: reactMovie,
     },
     {
       id: 5,
-      src: installNode,
+      src: Tictac,
     },
     {
       id: 6,
