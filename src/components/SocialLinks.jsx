@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/sakshi-nayan-feb2000/",
-      style: "rounded-tr-md text-xl ",
+      style: "rounded-tr-md ",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://github.com/SakshiNayan",
-      style: "text-xl",
+
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:sakshi12princi@gmail.com",
-      style: "text-xl",
+ 
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/Sakshi Nayan-V3.pdf",
-      style: "rounded-br-md text-xl",
+      style: "rounded-br-md",
       download: true,
     },
   ];
