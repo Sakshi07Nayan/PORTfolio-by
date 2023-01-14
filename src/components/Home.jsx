@@ -11,10 +11,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h1 className="text-4xl sm:text-7xl font-bold text-white mt-10">
+          <h1 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h1>
-          <p className="text-gray-500 text-2xl py-4 max-w-md mt-5">
+          <p className="text-gray-500 py-4 max-w-md">
           I’m an aspiring Full Stack Developer looking for a new role in an exciting company. I am a creative front-end developer based in India. I have hands-on experience in building projects using HTML, CSS, Javascript, and MERN stack. I speacialise in creating interactive experiences using React.
           </p>
 
@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={SelfImage}
             alt="my profile"
-            className="shadow rounded-full max-w-xl h-40 align-middle border-none"
+            className="shadow rounded-full max-w-full h-auto align-middle border-none"
           />
         </div>
       </div>

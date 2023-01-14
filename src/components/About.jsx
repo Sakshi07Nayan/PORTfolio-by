@@ -8,18 +8,18 @@ const About = () => {
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-5xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
 
-        <p className="text-2xl mt-20">
+        <p className="text-xl mt-15">
         A creative and diligent aspiring full-stack developer with a specialization in Mern Stack development. Self-believing and enthusiastic, with a keen interest in building and designing Backend and Frontend. Looking forward to sharpening my skills in a challenging environment. I guarantee enthusiasm in work and fulfilling my projects with inexpressible efforts.
         </p>
 
         <br />
 
-        <p className="text-2xl mt-10">
+        <p className="text-xl mt-10">
         The web can sometimes be indistinguishable from magic, but I have the knowledge and patience required to make just about anything.
         </p>
       </div>
