@@ -18,7 +18,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl mt-10">
+        <p className="text-xl mt-10 mb-10">
         The web may sometimes seem like magic, but I possess the knowledge and patience to bring any concept to life.        </p>
       </div>
     </div>
