@@ -7,47 +7,61 @@ import reactImage from "../assets/react.png";
 import nodeJs from "../assets/node.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
+import angular from "../assets/angular.png";
+import postgresql from "../assets/postgresql.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
-      style: "shadow-orange-500",
+      src: angular,
+      title: "Angular",
+      style: "shadow-red-400",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      src: javascript,
-      title: "JavaScript",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
       src: reactImage,
       title: "React",
       style: "shadow-blue-600",
     },
     {
+      id: 3,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 4,
+      src: postgresql,
+      title: "PostgreSQL",
+      style: "shadow-green-400",
+    },
+    {
       id: 5,
+      src: css,
+      title: "CSS",
+      style: "shadow-blue-500",
+    },
+    {
+      id: 6,
+      src: javascript,
+      title: "JavaScript",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
     {
-      id: 6,
+      id: 8,
       src: nodeJs,
       title: "Node Js",
       style: "shadow-pink-400",
     },
     {
-      id: 7,
+      id: 9,
       src: github,
       title: "GitHub",
       style: "shadow-gray-400",

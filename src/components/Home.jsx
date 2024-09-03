@@ -1,5 +1,5 @@
 import React from "react";
-import SelfImage from "../assets/sakshi1.png";
+import SelfImage from "../assets/self.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -14,9 +14,8 @@ const Home = () => {
           <h1 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full Stack Developer
           </h1>
-          <p className="text-gray-500 py-4 max-w-md">
-          I’m an aspiring Full Stack Developer looking for a new role in an exciting company. I am a creative front-end developer based in India. I have hands-on experience in building projects using HTML, CSS, Javascript, and MERN stack. I speacialise in creating interactive experiences using React.
-          </p>
+          <p className="text-gray-500 py-4 max-w-lg">
+As a creative front-end developer based in India, I specialize in crafting dynamic, interactive experiences using Angular and React. My expertise spans HTML, CSS, JavaScript, and both the MEAN and MERN stacks, enabling me to build robust and scalable applications. With 2 years of experience as a Full Stack Developer, I have honed a deep understanding of scalable architectures and excel in Agile environments. I am eager to contribute as a key member of a product-driven organization, delivering innovative solutions that meet complex business challenges head-on.          </p>
 
           <div>
             <Link
@@ -37,7 +36,7 @@ const Home = () => {
           <img
             src={SelfImage}
             alt="my profile"
-            className="shadow rounded-full max-w-full h-auto align-middle border-none"
+            className="w-95 h-95 shadow rounded-full max-w-sm h-auto align-middle border-none"
           />
         </div>
       </div>
